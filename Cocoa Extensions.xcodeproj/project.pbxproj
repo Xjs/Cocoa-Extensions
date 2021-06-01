@@ -692,9 +692,11 @@
 		1DEB91AF08733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				FRAMEWORK_VERSION = A;
 				GCC_PREFIX_HEADER = Classes/CocoaExtensions_Prefix.pch;
 				INFOPLIST_FILE = Resources/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeux.frameworks.CocoaExtensions;
 				PRODUCT_NAME = CocoaExtensions;
 				WRAPPER_EXTENSION = framework;
@@ -718,9 +720,11 @@
 		4CF3FD0120E28E5D00A93C98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				FRAMEWORK_VERSION = A;
 				GCC_PREFIX_HEADER = Classes/CocoaExtensions_Prefix.pch;
 				INFOPLIST_FILE = Resources/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeux.frameworks.CocoaExtensions;
 				PRODUCT_NAME = CocoaExtensions;
 				WRAPPER_EXTENSION = framework;
